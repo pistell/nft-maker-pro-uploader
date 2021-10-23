@@ -1,14 +1,13 @@
-# nft-maker-pro-uploader
-Bulk upload multiple files to NFT Maker Pro
+# NFT Maker Pro Uploader
 
+This script will bulk upload your NFT images to NFT Maker Pro. Watch the YouTube link below to get a better understanding
 
-To use
+*  to install `npm i`
 
-Install it
+* to run `node uploadNFT.js`
+ 
+* There is a for loop at the bottom which is set to upload 5 images plus metadata.
+---
+## YouTube Video helper
 
-  > npm i
-
-
-Run it
-
-  > node uploadNFT.js
+https://youtube.com
