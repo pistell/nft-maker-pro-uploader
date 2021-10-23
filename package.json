@@ -1,0 +1,18 @@
+{
+  "name": "youtube_demo_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^10.0.0",
+    "image-to-base64": "^2.2.0"
+  }
+}
