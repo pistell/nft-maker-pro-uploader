@@ -10,4 +10,4 @@ This script will bulk upload your NFT images to NFT Maker Pro. Watch the YouTube
 ---
 ## YouTube Video helper
 
-https://youtube.com
+https://youtu.be/CFJt3o8BC4o
