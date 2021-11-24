@@ -132,9 +132,9 @@ async function uploadMyNFT(metadata, assetNumber, base64ImageData) {
 // The next() method should return a promise (to be fulfilled with the next value).
 async function* asyncGenerator() {
   let i = 0; // //The asset number to start on
+  yield getFiles();
+  yield modifyFilesForUpload();
   while (i < 5) {
-    yield getFiles();
-    yield modifyFilesForUpload();
     const metadata = JSON.parse(filesToUpload[i].meta);
     const assetNumber = filesToUpload[i].fileReference.padStart(5, '0');
     const base64ImageData = filesToUpload[i].img;
